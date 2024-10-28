@@ -22,30 +22,10 @@ npm install
 Start the development server:
 ```bash
 npm run dev
-
-
-
-
-
-
 ```
 
 **Usage:**  
 Once the development server is running, open your browser and navigate to `http://localhost:3000`. You will see the MShop homepage, allowing you to browse different sections and purchase available products.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 **Technologies Used:**
 - **Next.js**: React framework for server-side rendering and static site generation.
