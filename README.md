@@ -1,36 +1,36 @@
-# MShop - Product Landing Page
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-> **MShop** is a single-page landing site designed to showcase products with a clean, modern design. Built using **Next.js** and **Tailwind CSS**, this site provides an immersive product display with easy redirection options for purchases.
+## Getting Started
 
-**Features:**
-- Eye-Catching Interface: Stylish display with a captivating header and main call-to-action.
-- Showcase Video: Integrated video background to grab visitors' attention, with mute/unmute options.
-- Buy & Discord Links: Direct access to purchase options and a Discord link for customer support.
-- Why Choose Us Section: Highlights of key benefits including fast delivery, secure payments, and 24/7 support.
-- Product Plans Display: Highlights of various product plans with detailed feature lists.
+First, run the development server:
 
-**Getting Started:**  
-Clone the repository:
-```bash
-git clone https://github.com/yourusername/MShop.git
-cd MShop
-```
-Install dependencies:
-```bash
-npm install
-```
-Start the development server:
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-**Usage:**  
-Once the development server is running, open your browser and navigate to `http://localhost:3000`. You will see the MShop homepage, allowing you to browse different sections and purchase available products.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-**Technologies Used:**
-- **Next.js**: React framework for server-side rendering and static site generation.
-- **Tailwind CSS**: Utility-first CSS framework for modern, responsive design.
-- **React Icons**: Icon library for adding attractive visual elements.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-**Contributing:**  
-Contributions are welcome! If you wish to improve this project, feel free to submit a `pull request`. Please ensure that you follow coding best practices and document any changes made.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

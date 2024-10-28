@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #10151d;
+  transition: all 0.3s;
+}
+
+.shine {
+  position: fixed;
+  inset: 0;
+  z-index: -10;
+  background-image: radial-gradient(500px 200px at 50% 0, #131f33 20%, rgba(19, 31, 51, 0) 100%);
+}
+
+.padingpersoo {
+  padding: 14%;
+}
+
+.padingpersoo2 {
+  padding: 5%;
+}
+
+.padingpersoo3 {
+  padding: 5%;
+}
+
+.effecthover {
+  transition: all 0.3s;
+}
+
+.effecthover:hover {
+  transform: scale(1.05);
+}
+
+.effectup {
+  transition: all 0.3s;
+}
+
+.effectup:hover {
+  transform: translateY(-3px);
+}
+
+.effectborderblue:hover {
+  border: 1px solid rgb(14 165 233);
+}
+
+.bordersky {
+  border: 1px solid rgb(14 165 233);
+}
+
+.bordergray {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.separatorright {
+  border-top: 1px solid rgb(14 165 233);
+  width: 50%;
+  margin-left: auto;
+  margin-right: 3%;
+}
+
+.separatorleft {
+  border-top: 1px solid rgb(14 165 233);
+  width: 50%;
+  margin-left: 3%;
+  margin-right: auto;
+}
+
+.colorma {
+  background-color: #0d101b54;
+}
+
+@media (max-width: 640px) {
+  .dontshowmobile {
+    display: none;
+  }
+}
+
+.fadeInAnimation {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
