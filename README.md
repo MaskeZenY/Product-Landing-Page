@@ -12,7 +12,7 @@
 **Getting Started:**  
 Clone the repository:
 ```bash
-git clone https://github.com/Mopoajn/Product-Landing-Page
+git clone https://github.com/MaskeZenY/Product-Landing-Page
 cd MShop
 ```
 Install dependencies:
